@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(232, 248, 255);
+  height: fit-content;
+}
+
+header {
+  color: rgb(4, 60, 112);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(4, 60, 112);
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: rgb(14, 114, 207);
+}
+
+div.top {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 550;
+  font-size: 80%;
+  padding-top: 20px;
+}
+
+span.language {
+  margin-left: 15%;
+}
+
+span.consales {
+  margin-left: 4%;
+}
+
+.sicon {
+  width: 1.5%;
+  margin-left: 40%;
+}
+
+.login {
+  margin-left: 1%;
+}
+
+.csupport {
+  margin-left: 1%;
+}
+
+.about {
+  margin-left: 2%;
+}
+
+.top span {
+  vertical-align: top;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.space {
+  display: inline-block;
+}
+
+.down {
+  transform: rotate(45deg);
+}
+
+.ntop {
+  background-color: white;
+  padding-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 575;
+}
+
+.ntop span {
+  display: inline;
+  vertical-align: middle;
+}
+
+.logo {
+  margin-left: 14%;
+  width: 8%;
+}
+
+.software {
+  margin-left: 5%;
+  font-size: 110%;
+}
+
+
+h1{
+  display: none;
+}
+
+.price {
+  margin-left: 3.25%;
+  font-size: 110%;
+}
+
+.resources {
+  margin-left: 3.25%;
+  font-size: 110%;
+}
+
+.subscription span {
+  background-color: rgb(252, 99, 120);
+  color: white;
+  border: 10px solid rgb(252, 99, 120);
+  border-left: 20px solid rgb(252, 99, 120);
+  border-right: 20px solid rgb(252, 99, 120);
+  border-radius: 4px;
+  margin-left: 25%;
+  font-size: 90%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscription:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.subscription:hover span {
+  background-color: rgb(252, 152, 166);
+  border-color: rgb(252, 152, 166);
+}
+
+.mainheading {
+  background-color: white;
+}
+
+div.mainheading {
+  margin-top: 4px;
+  height: fit-content;
+}
+
+div.heading {
+  font-family: "Lato", sans-serif;
+  width: fit-content;
+  background-color: white;
+  color: rgb(4, 60, 112);
+  padding-left: 14.75%;
+  padding-top: 1.5%;
+}
+
+.heading pre {
+  font-family: "Lato", sans-serif;
+  font-size: 200%;
+}
+
+.genre{
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.genre:hover{
+  text-decoration: underline;
+}
+
+.title pre {
+  padding-top: 14%;
+  padding-bottom: 8%;
+}
+
+.written {
+  font-weight: bold;
+}
+
+.author {
+  font-weight: 400;
+}
+
+.tweetid a {
+  color: rgb(14, 114, 207);
+  font-weight: bold;
+}
+
+.tweetid a:hover {
+  color: rgb(52, 65, 182);
+  text-decoration: underline;
+}
+
+.recommend {
+  font-size: 45%;
+  font-weight: 400;
+}
+
+.recommend pre {
+  padding-top: 14%;
+}
+
+.download {
+  margin-left: 18%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.download span {
+  background-color: rgb(252, 99, 120);
+  border: 10px solid rgb(252, 99, 120);
+  border-left: 25px solid rgb(252, 99, 120);
+  border-right: 25px solid rgb(252, 99, 120);
+  border-top: 15px solid rgb(252, 99, 120);
+  border-bottom: 15px solid rgb(252, 99, 120);
+  border-radius: 4px;
+}
+
+.download:hover span {
+  background-color: rgb(252, 152, 166);
+  border-color: rgb(252, 152, 166);
+}
+
+.download a {
+  color: white;
+}
+.titleimg {
+  padding-left: 10%;
+  width: fit-content;
+}
+
+.head {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content {
+  background-color: white;
+  color: rgb(121, 120, 120);
+  font-family: "Lato", sans-serif;
+  padding-top: 50px;
+  padding-left: 27%;
+  padding-right: 27%;
+  font-size: 120%;
+  font-weight: 400;
+}
+
+.freedl {
+  width: fit-content;
+  font-size: 130%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+}
+
+.freedl a {
+  color: rgb(0, 68, 255);
+}
+
+.freedl a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(52, 65, 182);
+}
+
+
+.content ul{
+  margin-left: 20px;
+}
+
+.content ul li a {
+  color: rgb(55, 75, 255);
+}
+
+.content ul li a:hover {
+  color: rgb(52, 65, 182);
+  text-decoration: underline;
+}
