@@ -98,6 +98,11 @@ span.consales {
   font-size: 110%;
 }
 
+
+header h1{
+  display: none;
+}
+
 .price {
   margin-left: 3.25%;
   font-size: 110%;
